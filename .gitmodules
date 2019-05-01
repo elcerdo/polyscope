@@ -8,5 +8,5 @@
 	branch = master
 [submodule "deps/geometry-central"]
 	path = deps/geometry-central
-	url = https://github.com/nmwsharp/geometry-central.git
+	url = git@github.com:elcerdo/geometry-central.git
 	branch = master
