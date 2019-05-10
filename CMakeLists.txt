@@ -72,6 +72,8 @@ if(BUILD_POLYSCOPE_DEMO)
     add_subdirectory(src/demo-app)
 endif()
 
+add_subdirectory(src/distance-map)
+
 ### Pass relevant variables to parent projects
 if(HAVE_PARENT AND HAVE_SUITESPARSE)
     SET(HAVE_SUITESPARSE TRUE PARENT_SCOPE)
